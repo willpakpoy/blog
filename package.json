@@ -1,0 +1,8 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/willpakpoy/blog.git",
+  "author": "Will Pak Poy (Surface 2020) <0521858@radford.act.edu.au>",
+  "license": "MIT"
+}
