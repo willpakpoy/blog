@@ -1,0 +1,25 @@
+$font-family-sans-serif:
+  // Safari for OS X and iOS (San Francisco)
+  -apple-system,
+  // Chrome < 56 for OS X (San Francisco)
+  BlinkMacSystemFont,
+  // Windows
+  "Segoe UI",
+  // Android
+  "Roboto",
+  // Basic web fallback
+  "Helvetica Neue", Arial, sans-serif,
+  // Emoji fonts
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
+:root {
+    --default-page-margin-width: 1024px;
+    --default-inner-pad: 0px 24px;
+}
+body {
+    font-family: Inter, sans-serif;
+    margin: 0px;
+    color: #232528
+}
+
+@import "header";

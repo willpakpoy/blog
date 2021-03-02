@@ -4,5 +4,13 @@
   "main": "index.js",
   "repository": "https://github.com/willpakpoy/blog.git",
   "author": "Will Pak Poy (Surface 2020) <0521858@radford.act.edu.au>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "eleventy-plugin-sass": "^1.1.1"
+  },
+  "scripts": {
+    "build": "eleventy",
+    "work": "eleventy --serve"
+  }
 }

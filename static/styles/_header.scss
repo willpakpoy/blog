@@ -1,0 +1,25 @@
+header {
+    background-color: #fdfd96;
+    padding: var(--default-inner-pad);
+    .header-inner {
+        max-width: var(--default-page-margin-width);
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h1 {
+            margin: 0px;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    
+}
