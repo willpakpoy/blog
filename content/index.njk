@@ -1,5 +1,7 @@
-<ul>
+<h1>Recent posts</h1>
 {%- for post in collections.post -%}
-  <li>{{ post.data.title }}</li>
+  <a href="{{ post.url }}">
+      <h3>{{ post.data.title }}</h3>
+      <p>{{ post.date.toString() }}</p>
+  </a>
 {%- endfor -%}
-</ul>
