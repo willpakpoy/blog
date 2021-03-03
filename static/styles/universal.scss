@@ -19,7 +19,10 @@ $font-family-sans-serif:
 body {
     font-family: Inter, sans-serif;
     margin: 0px;
-    color: #33363b
+    color: #33363b;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 a {
@@ -35,4 +38,5 @@ h1, h2 {
 }
 
 @import "header";
+@import "footer";
 @import "inner-content-styling";
