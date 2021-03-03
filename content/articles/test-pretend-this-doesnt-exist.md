@@ -1,5 +1,4 @@
 ---
-tags: post
 title: this is a test article
 date: 2021-03-02
 ---
