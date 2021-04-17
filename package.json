@@ -12,5 +12,8 @@
   "scripts": {
     "build": "eleventy",
     "work": "eleventy --serve"
+  },
+  "devDependencies": {
+    "moment": "^2.29.1"
   }
 }
