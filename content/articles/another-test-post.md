@@ -1,5 +1,4 @@
 ---
-tags: post
 title: Another test post
 date: 2021-03-07T01:02:47.308Z
 ---

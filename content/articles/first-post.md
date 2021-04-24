@@ -1,7 +1,6 @@
 ---
-tags: post
 title: First post!
-date: 2021-03-02
+date: 2021-02-02
 ---
 # This is my first epic blog post.
 
